@@ -43,7 +43,7 @@ const Cards: React.FC<CardProps> = ({ card }) => {
         </Link>
         <div className="card__info">
           <span className="card__category">{card.title}</span>
-          <h3 className="card__title">Blueberry & Oranges Pancakes</h3>
+          <h3 className="card__title">{card.description}</h3>
           <span className="card__by">
             by{' '}
             <Link href="#" className="card__author" title="author">
