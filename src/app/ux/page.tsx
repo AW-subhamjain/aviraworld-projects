@@ -4,7 +4,7 @@ import { OrbitingCirclesDemo } from "../../components/ui/orbitingcirclesdemo";
 import { useRouter } from "next/router";
 import Navbar from "@/components/ui/Navbar";
 import { OrbitingCirclesDemoApp } from "@/components/ui/orbitingcirclesdemoaapp";
-import { OrbitingCirclesDemoUx } from "@/components/ui/orbitingcirclesdemoaux";
+import { OrbitingCirclesDemoUx } from "@/components/ui/orbitingcirclesdemoux";
 
 const Ux = () => {
     const appCardData = [

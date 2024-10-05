@@ -37,9 +37,9 @@ const Cards: React.FC<CardProps> = ({ card }) => {
             <span className="card__time"></span>
           </div>
         </div>
-        <Image src={card.image} className="card__img" width={100} height={100} alt='img'/>
+        <Image src={card.image} className="card__img" width={100} height={100} alt='img' unoptimized/>
         <Link href={card.designLink} className="card_link">
-          <Image src={card.image} className="card__img--hover" alt='mig' width={100} height={100}/>
+          <Image src={card.image} className="card__img--hover" alt='mig' width={100} height={100} unoptimized/>
         </Link>
         <div className="card__info">
           <span className="card__category">{card.title}</span>

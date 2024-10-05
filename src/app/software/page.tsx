@@ -8,9 +8,7 @@ import { OrbitingCirclesDemoSoftware } from "@/components/ui/orbitingcirclesdemo
 
 const Software = () => {
     const appCardData = [
-        { image: '/assets/template-img/temp 1.gif', title: 'Template 1', description: 'Enter Name of app', designLink: '../../Websites/Messaging-App/index.html' },
-        { image: '/assets/template-img/temp 2.gif', title: 'Template 2', description: 'Enter Name of app', designLink: '../../Websites/WomenSafetyApp/index.html' },
-        { image: '/assets/template-img/temp 3.gif', title: 'Template 3', description: 'Enter Name of app', designLink: '../../Websites/Avira-Fashions/index.html' },
+        { image: '/assets/template-img/temp 1.gif', title: 'Template 1', description: 'Enter Name of app', designLink: '../../Websites/inventory/index.html' },
 
     ];
    
@@ -24,7 +22,7 @@ const Software = () => {
           <OrbitingCirclesDemoSoftware />
 
           <h1 className="text-4xl font-bold w-60 text-white">
-            "Welcome to Our App Devlopement Section"
+            "Welcome to Our Software Section"
           </h1>
         </div>
         <div className="container mx-auto ">
